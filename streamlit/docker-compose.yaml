@@ -1,0 +1,17 @@
+
+services:
+  streamlit:
+    build:
+      context: .
+    container_name: rag-gov-docs
+    networks:
+      - docker-hadoop-spark_default
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: ["tail", "-f", "/dev/null"]
+
+networks:
+  docker-hadoop-spark_default:
+    external: true

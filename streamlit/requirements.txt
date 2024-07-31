@@ -1,0 +1,12 @@
+
+streamlit
+pandas
+numpy
+hdfs
+fitz
+streamlit_pdf_viewer
+tika
+pdfminer.six
+pdf2image
+pytesseract
+Pillow

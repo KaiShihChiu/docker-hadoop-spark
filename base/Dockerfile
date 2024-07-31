@@ -1,3 +1,23 @@
+# FROM debian:11
+
+# MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
+# MAINTAINER Giannis Mouchakis <gmouchakis@iit.demokritos.gr>
+
+# # 更新包列表並安裝所需包，包括 OpenJDK 11
+# RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+#       openjdk-11-jdk \
+#       net-tools \
+#       curl \
+#       netcat \
+#       gnupg \
+#       libsnappy-dev \
+#       vim \
+#       nano \
+#     && rm -rf /var/lib/apt/lists/*
+      
+# ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
+
+
 FROM debian:9
 
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
