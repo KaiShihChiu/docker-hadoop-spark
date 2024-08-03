@@ -5,6 +5,10 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+/streamlit/__pycache__/
+/streamlit/*.py[cod]
+/streamlit/*.pyo
+/streamlit/*.pyd
 
 # Ignore virtual environments
 venv/
