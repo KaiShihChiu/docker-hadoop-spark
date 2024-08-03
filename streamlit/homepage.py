@@ -17,7 +17,7 @@ st.markdown(
     **👈 Select a demo from the sidebar** to see basic steps of building RAG!
     ### Steps:
     - **Document loading**: PDF, Word, Image (png and jpeg etc.)
-    - **Data cleaning**: 
+    - **Data cleaning**: different data may need different cleaning methods, but the important thing is to make sure the explanation part is extracted.
     - **MetaData extraction**: 
     - **Vectorization**: 
     - **Querying**: 
